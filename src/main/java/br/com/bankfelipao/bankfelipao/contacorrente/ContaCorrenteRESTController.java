@@ -47,7 +47,6 @@ public class ContaCorrenteRESTController {
     @GetMapping("/extrato")
     public List<MovimentacaoContaCorrenteResponseDTO> extrato(@RequestBody @Valid ExtratoContaCorrenteRequestDTO extratoContaCorrenteRequestDTO){
         return extratoContaCorrenteUseCase.extrato(extratoContaCorrenteRequestDTO);
-
     }
 
     @GetMapping("/consulta")

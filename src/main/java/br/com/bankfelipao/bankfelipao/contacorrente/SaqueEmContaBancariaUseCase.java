@@ -6,8 +6,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SaqueEmContaBancariaUseCase {
+
     @Autowired
     private ContaCorrenteService contaCorrenteService;
+
     @Autowired
     private TransacaoService transacaoService;
 

@@ -8,8 +8,10 @@ import javax.validation.constraints.NotBlank;
 @Getter
 @Setter
 public class ContaCorrenteRequestDTO {
+
     @NotBlank(message = "Deve passar uma agencia")
     private String agencia;
+
     @NotBlank(message = "Deve passar uma conta corrente")
     private String contaCorrente;
 

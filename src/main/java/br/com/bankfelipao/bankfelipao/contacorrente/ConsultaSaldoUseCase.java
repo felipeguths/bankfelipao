@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ConsultaSaldoUseCase {
+
     @Autowired
     private ContaCorrenteService contaCorrenteService;
 

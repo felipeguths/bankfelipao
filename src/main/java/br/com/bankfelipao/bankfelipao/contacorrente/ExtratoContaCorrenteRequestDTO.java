@@ -12,12 +12,16 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class ExtratoContaCorrenteRequestDTO  {
+
     @NotBlank(message = "Deve passar uma agencia")
     private String agencia;
+
     @NotBlank(message = "Deve passar uma conta corrente")
     private String contaCorrente;
+
     @NotNull(message = "Deve passar uma data inicial para extrato")
     private LocalDate dataInicial;
+
     @NotNull(message = "Deve passar uma data final para extrato")
     private LocalDate dataFinal;
 

@@ -8,8 +8,10 @@ import java.util.List;
 
 @Component
 public class ExtratoContaCorrenteUseCase {
+
     @Autowired
     private ContaCorrenteService contaCorrenteService;
+
     @Autowired
     private TransacaoService transacaoService;
 
